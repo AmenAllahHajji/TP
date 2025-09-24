@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestion de tâches</title>
+  <link rel="stylesheet" href="deco.css">
+  <script src="controle.js"></script>
+</head>
+<body>
+  <h1>Bienvenue dans l'application de gestion de tâches !</h1>
+  
+  <section>
+      <input type="text" id="input" placeholder="Entrez une tâche">
+      <button id="button">Ajouter</button>
+  </section>
+  <section>
+    <input type="text" id="recherche" placeholder="Rechercher une tâche...">
+  </section>
+
+  <section>
+    <span id="compteur-totales">Total: 0</span> |
+    <span id="compteur-terminees">Terminées: 0</span> |
+    <span id="compteur-en-cours">En cours: 0</span>
+  </section>
+  <section>
+    <button id="tout-supprimer">Tout supprimer</button>
+  </section>
+
+  <ul id="liste"></ul>
+</body>
+</html>
