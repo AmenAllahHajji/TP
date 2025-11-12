@@ -1,0 +1,64 @@
+/* Structure générale */
+.app-container {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f6fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* En-tête */
+.header {
+  text-align: center;
+  background-color: #0078d7;
+  color: white;
+  width: 100%;
+  padding: 20px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.subtitle {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #e8e8e8;
+}
+
+/* Contenu principal */
+.content {
+  width: 90%;
+  max-width: 900px;
+  margin: 30px 0;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  padding: 20px 40px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section-title {
+  color: #0078d7;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* Lignes de séparation */
+hr {
+  border: none;
+  border-top: 2px solid #e0e6ed;
+  margin: 30px 0;
+}
+
+/* Pied de page */
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: #0078d7;
+  color: white;
+  font-size: 14px;
+  margin-top: auto;
+}
