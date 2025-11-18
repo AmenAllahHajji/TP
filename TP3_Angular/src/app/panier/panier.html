@@ -1,0 +1,21 @@
+<h2>Mon Panier</h2>
+
+<!-- Passage du nom et prix à l'enfant -->
+<app-produit
+  [nomProduit]="'Ordinateur Portable'"
+  [prix]="1200"
+  (ajouterAuPanier)="onProduitAjoute($event)">
+</app-produit>
+
+<app-produit
+  [nomProduit]="'Smartphone'"
+  [prix]="800"
+  (ajouterAuPanier)="onProduitAjoute($event)">
+</app-produit>
+
+<h3>Produits dans le panier :</h3>
+<ul>
+  <li *ngFor="let item of panier">
+    {{ item.nom }} - {{ item.prix | currency:'EUR':'symbol' }}
+  </li>
+</ul>

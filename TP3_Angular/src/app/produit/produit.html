@@ -1,0 +1,13 @@
+<img [src]="imageUrl" alt="Image du produit">
+<button (click)="afficherAlerte()">Cliquer ici!</button><br>
+
+<div [ngClass]="enStock ? 'dispo' : 'nodispo'">
+  Le produit est disponible -> {{ enStock }}
+</div>
+
+<button (click)="basculer()">Basculer</button>
+
+<h3>{{ nomProduit }}</h3>
+<p>Prix : {{ prix | currency:'EUR':'symbol' }}</p>
+<button (click)="ajouterProduit()">Ajouter au panier</button>
+

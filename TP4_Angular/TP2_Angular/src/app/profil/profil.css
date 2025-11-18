@@ -1,0 +1,33 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #3498db;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+label {
+  font-weight: 600;
+  color: #34495e;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+}
+
+input:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+p {
+  margin-top: 10px;
+  font-style: italic;
+  color: #16a085;
+}

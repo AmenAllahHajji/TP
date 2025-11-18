@@ -1,0 +1,21 @@
+h2 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+app-produit {
+  display: block;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #ecf0f1;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 4px;
+}
