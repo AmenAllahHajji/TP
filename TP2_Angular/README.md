@@ -2,4 +2,4 @@
 
 ## Interface de l'application
 
-![Interface](images/interface.png)
+![Interface](tp2.png)
